@@ -1,0 +1,7 @@
+<h2>In engine</h2>
+{{outlet}}
+<div class="containerSelector">
+    {{#vertical-collection tags estimateHeight=100 containerSelector=".containerSelector" key="id" as |tag index|}}
+        {{tag.name}}
+    {{/vertical-collection}}
+</div>
